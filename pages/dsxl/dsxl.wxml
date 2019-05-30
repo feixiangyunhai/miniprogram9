@@ -1,0 +1,12 @@
+<!--pages/dsxl/dsxl.wxml-->
+<view class='nav' wx:for="{{detailData}}" wx:key="{{index}}" catchtap='xun' data-index='{{index}}'>
+  <view class='tu' >
+  <image src='{{detailData[index].titleImage}}'></image>
+  <text>
+    15\n分钟
+  </text>
+  </view>
+  <text class='jiben'>{{detailData[index].title}}</text>
+  <text class='chuji'>{{detailData[index].level}}</text>
+</view>
+<button>更多训练</button>

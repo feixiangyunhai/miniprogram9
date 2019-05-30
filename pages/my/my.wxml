@@ -1,0 +1,14 @@
+<!--pages/my/my.wxml-->
+<view>
+  <view class='xinxi'>
+    <view class='tou'><open-data type="userAvatarUrl" ></open-data></view>
+    <view class='ming'>
+      <open-data type="userNickName" class='name'></open-data>
+      <view class='xulian'>
+        <text>我已完成训练：0个</text>
+        <text>联系我们</text>
+      </view>
+    </view>
+  </view>
+  <view class='jixing'>进行中的训练</view>
+</view>

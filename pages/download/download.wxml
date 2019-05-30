@@ -1,0 +1,16 @@
+<!--pages/download/download.wxml-->
+<swiper
+  indicator-dots="true"
+  autoplay="true"
+  interval="5000"
+  duration="1000"
+  circular="true"
+  class="lb"
+>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="375rpx" height="390rpx" />
+    </swiper-item>
+  </block>
+</swiper>
+<button>下载</button>

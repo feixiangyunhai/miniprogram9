@@ -1,0 +1,16 @@
+<!--pages/adimn/admin.wxml-->
+<view style='background:url({{imgUrls[0]}})' catchtap='jihua'>
+    <h3>入门训练</h3>
+    <text>由教练指导的4周均衡训练</text>
+    <h1></h1>
+</view>
+<view style='background:url({{imgUrls[1]}}' catchtap='xunlian'>
+  <h3>短时训练</h3>
+  <text>5-15分钟针对性基础训练</text>
+  <h1></h1>
+</view>
+<view style='background:url({{imgUrls[2]}}' catchtap='sijiao'>
+    <h3>耐克私教专区</h3>
+    <text>专业教练的自创训练及指导</text>
+    <h1></h1>
+</view>

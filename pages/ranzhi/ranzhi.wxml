@@ -1,0 +1,52 @@
+<!--pages/ranzhi/ranzhi.wxml-->
+<view class='nav'>
+  <view class='tianjai'>
+    <view catchtap="tianjia">{{zi}}</view>
+    <view>立即开始</view>
+  </view>
+  <view style='background:url({{detailData.titleImg}})' class='kaishi'>
+    <text class='ming'>{{detailData.title}}</text>
+    <view class='heng'>
+      <view>
+        <text>{{detailData.time}}</text>
+        <text>分钟</text>
+      </view>
+      <view>
+        <text>{{detailData.strong}}</text>
+        <text>强度</text>
+      </view>
+      <view>
+        <text>{{detailData.level}}</text>
+        <text>水平</text>
+      </view>
+    </view>
+    <view class='yuan'>开始</view>
+  </view>
+  <text class='shi'>适合人群</text>大家都在发
+  <text class='he'>{{detailData.desc}}</text>
+  <view style='background:url({{detailData.bigImg}})' class='tou'>
+    <text>{{detailData.msg}}</text>
+  </view>
+  <text>训练创建者</text>
+  <text class='na'>{{detailData.name}}</text>
+  <view class='xiang'>
+    <text class='re'>热身</text>
+    <view wx:for="{{detailData.bodyHot}}" wx:key="index">
+      <image  src='{{detailData.bodyHot[index].image}}'></image>
+      <text>{{detailData.bodyHot[index].time}}</text>
+      <text>{{detailData.bodyHot[index].name}}</text>
+    </view>
+    <text class='re'>耐力</text>
+    <view wx:for="{{detailData.power}}" wx:key="index">
+      <image  src='{{detailData.power[index].image}}'></image>
+      <text>{{detailData.power[index].time}}</text>
+      <text>{{detailData.power[index].name}}</text>
+    </view>
+    <text class='re'>放松</text>
+    <view wx:for="{{detailData.relax}}" wx:key="index">
+      <image  src='{{detailData.relax[index].image}}'></image>
+      <text>{{detailData.relax[index].time}}</text>
+      <text>{{detailData.relax[index].name}}</text>
+    </view>
+  </view>
+</view>

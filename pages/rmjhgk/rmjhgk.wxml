@@ -1,0 +1,14 @@
+<!--pages/rnmjhgk/rmjhgk.wxml-->
+<view class='tab' style='background:url({{imgUrls[0]}})'>
+  <h1 class='rumen'>入门计划</h1>
+  <text class='fo'>4周</text>
+</view>
+<view class='nav'>
+  <text class='one'>训练级别</text>
+  <text class='two'>初级和中级</text>
+  <text class='three'>合适人群</text>
+  <text class='four'>刚开始训练或只是想保持健康的人群</text>
+</view>
+<view class='bot'>
+  <button catchtap='shezhi'>设置计划</button>
+</view>

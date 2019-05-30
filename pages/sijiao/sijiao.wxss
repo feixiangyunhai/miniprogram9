@@ -1,0 +1,87 @@
+/* pages/sijiao/sijiao.wxss */
+.da{
+  position: relative;
+}
+.nov{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5)
+}
+.myToast{
+  width:650rpx;
+  height:500rpx;
+  margin:360rpx 45rpx;
+  border-radius:10rpx;
+  background-color:white;
+  color:black;
+  font-size: 30rpx;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.myToast text{
+  width: 80%;
+  text-align: center;
+}
+.myToast text:first-child{
+  font-size: 50rpx;
+  margin-top: 40rpx;
+}
+.myToast text:nth-child(2){
+  margin: 30rpx 0;
+}
+.zd{
+  background: black;
+  color: white;
+  width: 60%;
+  height: 75rpx;
+  line-height: 75rpx;
+  margin:0rpx; 
+}
+
+.nav{
+  width: 100%;
+  height: 200rpx;
+  border-bottom: 1rpx solid #CCC;
+  position: relative;
+}
+.tu{
+  float: left;
+  width: 150rpx;
+  height: 150rpx;
+  margin: 23rpx;
+  text-align: center;
+  position: relative;
+}
+.tu>image{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.tu>text{
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: -19rpx;
+  right: 35rpx;
+}
+.jiben{
+  position: absolute;
+  top: 50rpx;
+  font-size: 40rpx; 
+}
+.chuji{
+  position: absolute;
+  top: 105rpx;
+  color: #CCC;
+}
+button{
+  width: 70%;
+  background: black;
+  color: white;
+  margin-top: 20rpx;
+  margin-bottom: 50rpx;
+}

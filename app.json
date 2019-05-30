@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/adimn/admin",
+    "pages/ranzhi/ranzhi",
+    "pages/sijiao/sijiao",
+    "pages/ceshi/ceshi",
+    "pages/my/my",
+    "pages/rmjhgk/rmjhgk",
+    "pages/download/download",
+    "pages/dsxl/dsxl",
+    "pages/data/data"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/adimn/admin",
+        "text": "首页",
+        "iconPath": "pages/image/icon/shouye.png",
+        "selectedIconPath": "pages/image/icon/shouye1.png",
+        "color": "#DBDBDB",
+        "selectedColor": "#707070"
+      },
+      {
+        "pagePath": "pages/download/download",
+        "text": "下载",
+        "iconPath": "pages/image/icon/customer-nike.png",
+        "selectedIconPath": "pages/image/icon/customer-nike1.png",
+        "color": "#DBDBDB",
+        "selectedColor": "#707070"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "pages/image/icon/nicheng.png",
+        "selectedIconPath": "pages/image/icon/nicheng1.png",
+        "color": "#DBDBDB",
+        "selectedColor": "#707070"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Nike健身",
+    "navigationBarTextStyle": "white"
+  }
+}

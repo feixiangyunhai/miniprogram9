@@ -1,0 +1,42 @@
+<!--pages/szjh/szjh.wxml-->
+<view class='tishi'>
+  <text>你在此填写的所有信息都能帮助我打造最适你的个性计划</text>
+</view>
+<view class='di'>
+
+<view  catchtap="{{xiala}}" wx:for="{{cishu}}" wx:key="this" data-index="{{index}}" class="cishu {{bg}}">
+  <text class='shu'>{{cishu[index].shu}}</text>
+  <text class='zi'>{{cishu[index].zi}}</text>
+  <text class='fu'>{{fu}}</text>
+
+</view>
+  <view hidden="{{la}}" class='la'>
+    <text>你每周有多少天可以进行训练</text>
+    <view class='forDay' wx:for="{{day}}" wx:key="{{index}}">
+      <text class='day'>{{day[index].Day}}</text>
+    </view>
+  </view>
+<!-- <view class="cishu {{bg}}"  catchtap="xiala">
+  <text class='shu'>②</text>
+  <text class='zi'>你的活跃度</text>
+  <text class='fu'>∨∧</text>
+  <view style='display:none'>
+    <text>你每周有多少天可以进行训练</text>
+    <view class='forDay' wx:for="{{day}}" wx:key="{{index}}">
+      <text class='day'>{{day[index].Day}}</text>
+    </view>
+  </view>
+</view> -->
+<!-- <view class="cishu {{bg}}"  catchtap="xiala">
+  <text class='shu'>③</text>
+  <text class='zi'>开始日期</text>
+  <text class='fu'>∨∧</text>
+  <view style='display:none'>
+    <text>你每周有多少天可以进行训练</text>
+    <view class='forDay' wx:for="{{day}}" wx:key="{{index}}">
+      <text class='day'>{{day[index].Day}}</text>
+    </view>
+  </view>
+</view> -->
+
+</view>

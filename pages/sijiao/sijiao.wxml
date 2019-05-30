@@ -1,0 +1,18 @@
+<!--pages/sijiao/sijiao.wxml-->
+<view class='da'>
+  <view class='nov' wx:if="{{condition}}">
+    <view class="myToast">
+      <text>训练说明</text>
+      <text>这是一个由Nike专业教练组成的私教训练专区，你可以根据自己的训练偏重，选择一位合适的教练开启私人专业训练。想要查看更多训练内容及专业指导，点击教练头像即可。
+      </text>
+      <button class='zd' catchtap='zhidao'>知道了</button>
+    </view>
+  </view>
+  <view class='nav' wx:for="{{detailData}}" wx:key="{{index}}">
+    <view class='tu' >
+    <image src='{{detailData[index].titleImage}}'></image>
+    </view>
+    <text class='jiben'>{{detailData[index].title}}</text>
+    <text class='chuji'>{{detailData[index].level}}</text>
+  </view>
+</view>
